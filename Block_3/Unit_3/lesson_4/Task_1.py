@@ -6,7 +6,6 @@ def count_tiles(depth, length, width=0):
 
     # Посчитайте, сколько понадобится плиток для стенок и дна бассейна.
     else:
-
         # Верните результат работы функции.
         return length * width + 2 * (depth * (length + width))
 

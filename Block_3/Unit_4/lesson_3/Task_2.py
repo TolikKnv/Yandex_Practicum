@@ -10,7 +10,7 @@ def get_results(leader_time, player_time):
         print(f"Вы пробежали за {datetime.time(leader_time)} и победили!")
     else:
         print(
-            f"Вы пробежали за {datetime.time(player_time)} с отставанием от лидера {player_time-leader_time}"
+            f"Вы пробежали за {datetime.time(player_time)} с отставанием от лидера {player_time - leader_time}"
         )
 
 

@@ -7,6 +7,7 @@ harvest = [
 ]  # Примените list comprehension.
 print(harvest)
 
+
 # 2. Функция для подсчёта общего урожая:
 def total_harvest(harvest):
     sum = 0

@@ -17,9 +17,11 @@ def find_pool_capacity(num_of_people, length, width=None):
 
     # Опишите условие вывода сообщений и распечатайте эти сообщения.
     if num_of_people <= 2 * width * length:
-        print(f"Бассейн площадью {width*length} кв. м. вмещает {num_of_people} чел.")
+        print(f"Бассейн площадью {width * length} кв. м. вмещает {num_of_people} чел.")
     else:
-        print(f"Бассейн площадью {width*length} кв. м. не вмещает {num_of_people} чел.")
+        print(
+            f"Бассейн площадью {width * length} кв. м. не вмещает {num_of_people} чел."
+        )
 
 
 # Проверьте работу функции, можете подставить свои значения.

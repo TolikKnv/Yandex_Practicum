@@ -11,5 +11,5 @@ def get_dumplings_recommendation(min_dumplings, max_dumplings):
 
 # Вызвать функцию get_dumplings_recommendation() и напечатать заданную фразу.
 print(
-    f"Оптимальным количеством пельменей на сегодня будет {get_dumplings_recommendation(25,30)}"
+    f"Оптимальным количеством пельменей на сегодня будет {get_dumplings_recommendation(25, 30)}"
 )

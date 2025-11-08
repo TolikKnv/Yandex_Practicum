@@ -7,7 +7,6 @@ def get_competition_data(data):
                 scores[team] = 0
             scores[team] += score
 
-
     team_winner = None
     win_score = 0
     for team, score in scores.items():
@@ -15,10 +14,8 @@ def get_competition_data(data):
             win_score = score
             team_winner = team
 
-
     list_ = scores.keys()
     list_ = sorted(list_)
-
 
     print(f"Команды, участвовавшие в гонке: {', '.join(list_)}")
     print(f"В гонке победила команда {team_winner} с результатом {win_score} баллов")

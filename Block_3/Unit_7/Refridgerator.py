@@ -17,7 +17,7 @@ def add(items, title, amount, expiration_date=None):
 def add_by_note(items, note):
     note = list(note.split())
     title = []
-    amount = Decimal('0')
+    amount = Decimal("0")
     expiration_data = None
     for word in note:
         if all([item in "0123456789." for item in word]):
@@ -46,4 +46,3 @@ def amount(items, needle):
         for item in items[i]:
             sum += item["amount"]
     return sum
-
