@@ -93,6 +93,9 @@ def process_friend(name, query):
                 return f'<не могу определить время в городе {city}>'
             time = what_time(city)
             return f'Там сейчас {time}'
+        elif query == 'как погода?':
+            weather = what_weather(city)
+            return weather
         else:
             return '<неизвестный запрос>'
     else:
